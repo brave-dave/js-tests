@@ -1,1 +1,1 @@
-export const myNumber = 'yellow'
+export const myNumber = 1
