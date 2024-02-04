@@ -1,5 +1,1 @@
-
-
-export const getListOfArguments = () => {
-}
-
+export const getListOfArguments = () => {};

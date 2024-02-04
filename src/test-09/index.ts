@@ -1,5 +1,1 @@
-
-
-export const sortNumbers = () => {
-}
-
+export const sortNumbers = () => {};
