@@ -1,5 +1,5 @@
-import { expect, test } from 'vitest'
-import { sumMultiple } from '.'
+import { expect, test } from "vitest";
+import { sumMultiple } from ".";
 
 test('sum should return the result 10 (3 + 2 + 1 + 4 = 10)', () => {
   expect(sumMultiple(3, 2, 1, 4)).toBe(10)
