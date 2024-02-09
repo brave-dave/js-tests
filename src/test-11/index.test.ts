@@ -15,7 +15,7 @@ test("sortNames returns the same list ordered ascendant by default", () => {
       "Haven Sweet",
       "Auston Crowell",
     ]),
-  ).toBe([
+  ).toStrictEqual([
     "Alvaro Underwood",
     "Amani McFarland",
     "Auston Crowell",
@@ -46,7 +46,7 @@ test("sortNames returns the same list ordered ascendant", () => {
       ],
       "asc",
     ),
-  ).toBe([
+  ).toStrictEqual([
     "Alvaro Underwood",
     "Amani McFarland",
     "Auston Crowell",
@@ -77,7 +77,7 @@ test("sortNames returns the same list ordered descendant", () => {
       ],
       "desc",
     ),
-  ).toBe([
+  ).toStrictEqual([
     "Shaylee Arthur",
     "Kasandra Strom",
     "Jordan Kenny",
