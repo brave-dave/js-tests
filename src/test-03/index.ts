@@ -1,1 +1,1 @@
-export const myBoolean = 'yellow'
+export const myBoolean = true;
